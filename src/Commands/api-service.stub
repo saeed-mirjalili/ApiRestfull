@@ -1,0 +1,16 @@
+<?php
+
+namespace {{ namespace }};
+
+use Saeed\CustomApi\Services\ServiceResult;
+use Saeed\CustomApi\Services\ServiceWrapper;
+
+class {{ class }}
+{
+    public function addTest(array $inputs): ServiceResult
+    {
+        return app(ServiceWrapper::class)(function () use ($inputs){
+            // return Test::create($inputs);
+        });
+    }
+}

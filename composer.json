@@ -1,0 +1,18 @@
+{
+    "name": "saeed/custom-api",
+    "description": "Package for make restfull api project",
+    "autoload": {
+        "psr-4": {
+            "Saeed\\CustomApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "saeed",
+            "email": "saeedmirjalili1367@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^10.0"
+    }
+}
