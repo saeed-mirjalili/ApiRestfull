@@ -15,4 +15,13 @@
     "require": {
         "illuminate/support": "^10.0|^11.0|^12.0"
     }
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                        "Saeed\\CustomApi\\CustomApiServiceProvider"
+                    ]
+                }
+            }
+            
 }
